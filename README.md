@@ -13,7 +13,10 @@ add the following code in Gradle Scripts
 	}
   
   
-  than add 
+ 
+ 
+ 
+ than add 
  implementation 'com.github.alihakemy:VideoRecorder:v1.0'
  
  
