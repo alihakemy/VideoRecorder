@@ -6,8 +6,7 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Fira Code';font-size:11.3pt;">
-</pre>
+
 <pre style="font-family: &quot;Fira Code&quot;; font-size: 11.3pt;">
 implementation <span style="color:#6a8759;">&#39;com.github.alihakemy:VideoRecorder:v1.0&#39;</span></pre>
 
