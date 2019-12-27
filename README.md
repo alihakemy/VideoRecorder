@@ -5,11 +5,12 @@
 <p>... maven { url 'https://jitpack.io' }}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;than add&nbsp;&nbsp;<span style="background-color: #ff0000;">   
-  
-  implementation 'com.github.alihakemy:VideoRecorder:v1.0'
-  
-  &nbsp;&nbsp;</span></p>
+
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Fira Code';font-size:11.3pt;">
+</pre>
+<pre style="font-family: &quot;Fira Code&quot;; font-size: 11.3pt;">
+implementation <span style="color:#6a8759;">&#39;com.github.alihakemy:VideoRecorder:v1.0&#39;</span></pre>
+
 <p><span style="background-color: #ff6600;">&nbsp;&nbsp;note</span> (check write external storage permission and camera and mic )<br />&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 
