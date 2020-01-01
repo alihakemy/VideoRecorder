@@ -8,7 +8,7 @@
 
 
 <pre style="font-family: &quot;Fira Code&quot;; font-size: 11.3pt;">
-   implementation <span style="color:#6a8759;">&#39;com.github.alihakemy:VideoRecorder:v2'
+   implementation <span style="color:#6a8759;">&#39;com.github.alihakemy:VideoRecorder:1.2'
 &#39;</span></pre>
 
 <p><span style="background-color: #ff6600;">&nbsp;&nbsp;note</span> (check write external storage permission and camera and mic )<br />&nbsp;&nbsp;&nbsp;&nbsp;</p>
