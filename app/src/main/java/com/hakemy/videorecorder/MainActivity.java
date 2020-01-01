@@ -33,12 +33,14 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         if (resultCode == RESULT_OK) {
             // A contact was picked.  Here we will just display it
             // to the user.
             Log.e("data1",data.getStringExtra("DATA"));
+            String VideoPath =data.getStringExtra("DATA");
             videoView.setVideoPath(data.getStringExtra("DATA"));
             videoView.start();
         }
