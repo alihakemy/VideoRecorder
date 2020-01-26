@@ -1,25 +1,31 @@
+# Video Recorder
+[![HitCount](http://hits.dwyl.io/alihakemy/VideoRecorder.svg)](http://hits.dwyl.io/alihakemy/VideoRecorder)  [![](https://jitpack.io/v/alihakemy/VideoRecorder.svg)](https://jitpack.io/#alihakemy/VideoRecorder)
+
 <p>this camera recorder library like whatsapp and messanger recorded while press on record buttonthis camera recorder library like whatsapp and messanger recorded while press on record button</p>
-<p>&nbsp;</p>
-<p>add the following code in Gradle Scripts&nbsp; allprojects {</p>
-<p>repositories {</p>
-<p>... maven { url 'https://jitpack.io' }}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
+# Installation 
+- add the following code in Gradle Scripts
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+- Add the dependency
+```
+dependencies {
+	        implementation 'com.github.alihakemy:VideoRecorder:Tag'
+	}
+```
+**Note**:
+- replace TAG with latest version
+- (check write external storage permission and camera and mic )
 
 
-<pre style="font-family: &quot;Fira Code&quot;; font-size: 11.3pt;">
-   implementation <span style="color:#6a8759;">&#39;com.github.alihakemy:VideoRecorder:1.2.0'
-&#39;</span></pre>
-
-<p><span style="background-color: #ff6600;">&nbsp;&nbsp;note</span> (check write external storage permission and camera and mic )<br />&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-
-
-
-
-
-
-
+# Usage
 
 <pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Fira Code';font-size:11.3pt;">
 Intent intent =<span style="color:#cc7832;">new </span>Intent(getApplicationContext()<span style="color:#cc7832;">,  </span>recordmain.<span style="color:#cc7832;">class</span>)<span style="color:#cc7832;">;
